@@ -1,6 +1,11 @@
 # BT-wifi-autologin-sh
-## Description
- Got inspriation from github/reddit but i need something to ping to the public servers to test internet connection whilst keeping the pings not a Dos!
+## Warning  
+The issue with the autologin script is that username and password is stored in a file in a readable format (within the script file), so make sure that the file is not shared without REMOVING your password.  
+
+## Description  
+Got inspiration from github/reddit but I need public servers to ping for testing internet connection whilst keeping the pings low enough for them* to handle. 
+
+*Them means the public cloud for testing but this script has 9 public servers to ping and test internet connection. They are selected in random.
 
 ## How does it work?
 - Login via wget POST data
@@ -20,4 +25,3 @@ Only runs in sudo (SUPERUSER)
 
 ## Permissons  
    chmod 700 = -rwx------
-
