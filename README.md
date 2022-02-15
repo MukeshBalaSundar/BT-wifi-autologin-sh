@@ -9,7 +9,7 @@ Got inspiration from github/reddit but I need public servers to ping for testing
 
 ## How does it work?
 - Login via wget POST data
-- Clear a tbblogin file creation for relogins
+- Clear the tbblogin file created from re-logins
 - One of the main aim for this was built was for pinging server for checking for connection to internet. 
 - If not connected then another function turns wifi nic on and off like a physical on/off, this helps to re-login.  
 
