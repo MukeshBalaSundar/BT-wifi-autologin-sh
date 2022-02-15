@@ -13,15 +13,16 @@ Got inspiration from github/reddit but I need public servers to ping for testing
 - One of the main aim for this was built was for pinging server for checking for connection to internet. 
 - If not connected then another function turns wifi nic on and off like a physical on/off, this helps to re-login.  
 
-## How does it run?  
+## How does it run (+ permissions, file dir)?  
 Only runs in sudo (SUPERUSER)
 
 	wget https://github.com/MukeshBalaSundar/BT-wifi-autologin-sh#autologin.sh
 	sudo cp autologin.sh /usr/login/sbin/
+	sudo cd /usr	/login/sbin/
+	sudo chmod 700 autologin.sh
 	sudo autologin.sh
 
 ## Where is should be located for functionality?  
-   File directory (/usr/local/sbin). 
+File directory (/usr/local/sbin). This is the only place it works for now. Due to sudo rights the clear function (removing tbblogin file) is taken as a function and quits with error on the function. So the best solution is to restrict access to any user or group and bas it only for root user.
 
-## Permissons  
-   chmod 700 = -rwx------
+
