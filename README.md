@@ -7,6 +7,19 @@ Got inspiration from github/reddit but I need public servers to ping for testing
 
 *Them means the public cloud for testing but this script has 9 public servers to ping and test internet connection. They are selected in random.
 
+IN SCRIPT:
+Default;-
+important!! find and replace terms. EMAIL, PASSWORD and NIC
+
+EMAIL=<YOUR EMAIL for BT WIFI>
+PASSWORD=<YOUR PASSWORD for BT WIFI>
+NIC=<YOUR NETWORK CARD CONNECTED TO BT WIFI/FON(Open Network)>
+
+Changes;
+EMAIL=fake@fake.com
+PASSWORD=password123
+NIC=eth0
+
 ## How does it work?
 - Login via wget POST data
 - Clear the tbblogin file created from re-logins
