@@ -1,2 +1,6 @@
 # BT-wifi-autologin-sh
-Got inspriation from github reddit but all contained some features that was not necessary
+#### Description
+##### Got inspriation from github/reddit but i need something to ping to the public servers to test internet connection whilst keeping the pings not a Dos!
+
+
+
