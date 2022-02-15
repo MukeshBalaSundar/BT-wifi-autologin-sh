@@ -18,7 +18,7 @@ Only runs in sudo (SUPERUSER)
 
 	wget https://github.com/MukeshBalaSundar/BT-wifi-autologin-sh#autologin.sh
 	sudo cp autologin.sh /usr/login/sbin/
-	sudo cd /usr	/login/sbin/
+	sudo cd /usr/login/sbin/
 	sudo chmod 700 autologin.sh
 	sudo autologin.sh
 
