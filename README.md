@@ -10,10 +10,9 @@ Got inspiration from github/reddit but I need public servers to ping for testing
 IN SCRIPT:
 Default;-
 important!! find and replace terms. EMAIL, PASSWORD and NIC  
-
-EMAIL=<YOUR EMAIL for BT WIFI>  
-PASSWORD=<YOUR PASSWORD for BT WIFI>  
-NIC=<YOUR NETWORK CARD CONNECTED TO BT WIFI/FON(Open Network)>  
+EMAIL=<YOUR_EMAIL_for_BT_WIFI>  
+PASSWORD=<YOUR_PASSWORD_for_BT_WIFI>  
+NIC=<YOUR_NETWORK_CARD_CONNECTED_TO_BT_WIFI/FON(Open Network)>  
 
 Changes;  
 EMAIL=fake@fake.com  
