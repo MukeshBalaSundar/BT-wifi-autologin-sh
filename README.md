@@ -16,9 +16,9 @@ Got inspiration from github/reddit but I need public servers to ping for testing
 ## How does it run?  
 Only runs in sudo (SUPERUSER)
 
-		wget https://github.com/MukeshBalaSundar/BT-wifi-autologin-sh#autologin.sh
-		sudo cp autologin.sh /usr/login/sbin/
-		sudo autologin.sh
+	wget https://github.com/MukeshBalaSundar/BT-wifi-autologin-sh#autologin.sh
+	sudo cp autologin.sh /usr/login/sbin/
+	sudo autologin.sh
 
 ## Where is should be located for functionality?  
    File directory (/usr/local/sbin). 
