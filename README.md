@@ -28,7 +28,7 @@ NIC=eth0
 ## How does it run (+ permissions, file dir)?  
 Only runs in sudo (SUPERUSER)
 
-	wget https://github.com/MukeshBalaSundar/BT-wifi-autologin-sh#autologin.sh
+	wget https://raw.githubusercontent.com/MukeshBalaSundar/BT-wifi-autologin-sh/main/autologin.sh
 	sudo cp autologin.sh /usr/login/sbin/
 	sudo cd /usr/login/sbin/
 	sudo chmod 700 autologin.sh
