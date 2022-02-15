@@ -15,7 +15,7 @@ PASSWORD=<YOUR_PASSWORD_for_BT_WIFI>
 NIC=<YOUR_NETWORK_CARD_CONNECTED_TO_BT_WIFI/FON(Open Network)>  
 
 Changes;  
-EMAIL=<fake-ID>@<fake-Domain>.com  
+EMAIL=email @ domain.com 
 PASSWORD=password123  
 NIC=eth0  
 
