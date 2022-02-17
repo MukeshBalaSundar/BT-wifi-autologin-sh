@@ -3,15 +3,15 @@
 The issue with the autologin script is that username and password is stored in a file in a readable format (within the script file), so make sure that the file is not shared without REMOVING your password.  
 
 ## Date Created  
-July 2021, but uploaded recently.
+July 2021, but uploaded recently.  
 
-## OS Compatibility
+## OS Compatibility  
 Linux Only
 - Shell
-  - Bash
+  - Bash  
 
-#### Windows? 
-Not for now...
+#### Windows?  
+Not for now...  
 
 
 ## Description  
