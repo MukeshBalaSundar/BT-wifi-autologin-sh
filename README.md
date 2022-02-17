@@ -5,6 +5,11 @@ The issue with the autologin script is that username and password is stored in a
 ## Date Created  
 July 2021, but uploaded recently.
 
+## OS Compatibility
+Linux Only
+- Shell
+  - Bash
+
 
 ## Description  
 Got inspiration from github/reddit but I need public servers to ping for testing internet connection whilst keeping the pings low enough for them* to handle. 
