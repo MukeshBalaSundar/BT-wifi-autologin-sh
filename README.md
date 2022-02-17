@@ -10,6 +10,9 @@ Linux Only
 - Shell
   - Bash
 
+#### Windows? 
+Not for now...
+
 
 ## Description  
 Got inspiration from github/reddit but I need public servers to ping for testing internet connection whilst keeping the pings low enough for them* to handle. 
